@@ -1,37 +1,37 @@
 package week08.zachary.id.ac.umn;
 
 public class Item {
-	private String Name;
-	private String Type;
-	private int Price;
-	
-	public Item(String name, String type, int price) {
-		this.Name = name;
-		this.Type = type;
-		this.Price = price;
-	}
+    private String Name;
+    private String Type;
+    private int Price;
 
-	public String getName() {
-		return Name;
-	}
+    public Item(String name, String type, int price) {
+        this.Name = name;
+        this.Type = type;
+        this.Price = price;
+    }
 
-	public void setName(String name) {
-		Name = name;
-	}
+    public String getName() {
+        return Name;
+    }
 
-	public String getType() {
-		return Type;
-	}
+    public void setName(String name) {
+        Name = name;
+    }
 
-	public void setType(String type) {
-		Type = type;
-	}
+    public String getType() {
+        return Type;
+    }
 
-	public int getPrice() {
-		return Price;
-	}
+    public void setType(String type) {
+        Type = type;
+    }
 
-	public void setPrice(int price) {
-		Price = price;
-	}
+    public int getPrice() {
+        return Price;
+    }
+
+    public void setPrice(int price) {
+        Price = price;
+    }
 }
